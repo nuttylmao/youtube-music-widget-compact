@@ -90,7 +90,7 @@ body {
 #backgroundArt {
 	position: absolute;
 	height: 100%;
-	width: 100%;
+	width: 140%;
 	border-radius: var(--corner-radius);
 	overflow: hidden;
 	z-index: -1;
@@ -100,18 +100,17 @@ body {
 #backgroundImage {
 	filter: blur(20px);
 	position: absolute;
-	width: 100%;
+	width: 140%;
 	top: 50%;
 	left: 50%;
 	transform: translateX(-50%) translateY(-50%);
-	clip-path: inset(0 50% 0 0);
 }
 
 #backgroundImageBack {
 	filter: blur(20px) grayscale(75%);
 	opacity: 0.5;
 	position: absolute;
-	width: 100%;
+	width: 140%;
 	top: 50%;
 	left: 50%;
 	transform: translateX(-50%) translateY(-50%);
